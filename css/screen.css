@@ -1,0 +1,60 @@
+body {
+  margins: 5%;
+  padding: 5%;
+  font-size: 3vh;
+}
+
+h1 {
+  padding: 3%;
+  font-size: 6vh;
+  text-align: center ;
+}
+
+p {
+  padding: 5%;
+  margin: 5%;
+  background-color: silver;
+}
+
+main {
+  padding: 5%;
+}
+
+main {
+  padding: 10%;
+  margin: 1%;
+}
+
+main ol li{
+
+  margin: 3vh 0;
+
+}
+
+main input{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #eee;
+  outline: none;
+}
+main input:focus {
+  outline: none;
+}
+
+main input[type="checkbox"]{
+  width: 2vh;
+  height: 2vh;
+  background: #eee;
+  appearance: none;
+  border: none;
+}
+
+main input[type="checkbox"]:checked{
+  width: 2vh;
+  height: 2vh;
+  background: black;
+  appearance: none;
+  border: none;
+}
