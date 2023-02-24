@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
-  margins: 5%;
   padding: 5%;
   font-size: 3vh;
-  font-family: "Ubuntu","Roboto", "lato", serif;
+  font-family: "Ubuntu","Roboto", "Montserrat", serif;
+
 }
 
 h1 {
@@ -24,6 +24,7 @@ p {
 main {
   padding: 5%;
 }
+
 
 main {
   padding: 10%;
@@ -69,7 +70,7 @@ main input[type="submit"]{
   padding: 2%;
 }
 main input[type="submit"]:focus{
-  font-family: "Ubuntu","Roboto", "lato", serif;
+  font-family: "Ubuntu","Roboto", "Montserrat", serif;
   padding: 2%;
   color: silver;
 }
