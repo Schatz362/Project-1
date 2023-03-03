@@ -158,3 +158,19 @@ float: right;
   }
 }
 
+@media only screen and (max-height: 1000px) {
+
+  h1 {
+    padding: 5%;
+    font-size: 8vh;
+    text-align: center;
+    background-color: #DA8E46;
+  }
+
+  p {
+    font-size: 6vh;
+    padding: 3% 11%;
+    text-align: center;
+  }
+}
+
