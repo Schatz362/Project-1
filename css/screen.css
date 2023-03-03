@@ -10,6 +10,7 @@ h1 {
   padding: 5%;
   font-size: 8vw;
   text-align: center;
+  background-color: #DA8E46;
 }
 
 p {
@@ -21,6 +22,7 @@ p {
 main ol li{
 
   margin: 3vh auto;
+  text-align: center;
 
 }
 
@@ -31,8 +33,20 @@ form {
   font-size: 4vh;
 }
 
+main input{
+  border: none;
+}
+
 main input[type="submit"]{
   font-size: 5vh;
   padding: 2%;
+  border: none;
+}
+
+main input[type="submit"]:hover{
+  font-size: 5vh;
+  padding: 2%;
+  background-color: gray;
+  color: silver;
 }
 
