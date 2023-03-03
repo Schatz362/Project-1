@@ -57,18 +57,3 @@ main input[type="submit"]:hover{
   background-color: gray;
   color: silver;
 }
-#ball {
-  width: 4vw;
-  height: 4vw;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@keyframes bounce {
-  0% { transform: translateY(-90vh); }
-  100% { transform: translateY(0); }
-}

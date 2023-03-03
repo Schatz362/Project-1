@@ -6,7 +6,6 @@
   <meta name="viewport" />
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js async"></script>
   <script src="js/site.js" async></script>
 </head>
 <body>
@@ -27,16 +26,16 @@
         </li>
         <li>
           <input type="checkbox" id="in-US" name="in-US" value="yes" />
-          <label for="in-US">Do you live in the United States of America</label>
+          <label for="in-US">Do you live in the US</label>
         </li>
         <li id="input-submit">
-          <input type="submit" name="submit" id="submit-button" onclick="balls()" value="MORE BALLS!!" />
+          <input type="submit" name="submit" id="submit-button" onclick="balls(event)" value="MORE SHAPES!!" />
         </li>
       </ol>
     </form>
     <div id="overlay"></div>
 
   </main>
-  <div id="ball"></div>
+  <div id="Shapes"></div>
 </body>
 </html>
