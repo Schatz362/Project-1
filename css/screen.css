@@ -57,3 +57,69 @@ main input[type="submit"]:hover{
   background-color: gray;
   color: silver;
 }
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background-color: #C58241;
+
+}
+
+
+
+#circle {
+  margin: 10%;
+  display: none;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  background-color: red;
+}
+
+#square {
+
+  margin: 10%;
+  display: none;
+  background-color: blue;
+  width: 5vh;
+  height: 6vw;
+}
+
+#triangle {
+  margin: 10%;
+  width: 5vh;
+  height: 6vh;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid red;
+}
+
+#circle2 {
+float: right;
+  margin: 20%;
+  display: none;
+  width: 4vw;
+  height: 8vw;
+  border-radius: 60%;
+  background-color: red;
+}
+
+#square2 {
+  display: none;
+  background-color: red;
+  width: 7vh;
+  height: 12vw;
+}
+
+#triangle2 {
+  display: none;
+  width: 9vw;
+  height: 4vh;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid blue;
+}
