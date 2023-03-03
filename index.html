@@ -6,25 +6,31 @@
   <meta name="viewport" />
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/site.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js async"></script>
+  <script src="js/site.js" async></script>
 </head>
 <body>
   <main id = "content">
+
     <h1>Free Balls</h1>
-    <p>Get more balls jsut by adding your info below!</p>
+    <p>Get more balls just by adding your info below!</p>
+
     <form method="get" action="#null">
       <ol>
         <li id="input-email">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" pattern="^.+@.+$" />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email"/>
+        </li>
+        <li id="input-phone">
+          <label for="input-phone">Phone Number:</label>
+          <input type="tel" name="tel" id="tel"/>
         </li>
         <li id="input-age-verification">
           <input type="checkbox" id="age-verification" name="age-verification" value="18" />
           <label for="age-verification">I am over 18 years old</label>
         </li>
         <li id="input-submit">
-          <input type="submit" name="submit" id="submit" value="MORE BALLS" />
+          <input type="submit" name="submit" id="submit" value="MORE BALLS!!" />
         </li>
       </ol>
     </form>

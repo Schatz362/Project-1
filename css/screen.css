@@ -3,7 +3,36 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
-  background-color: #FBC695;
-  font-size: 3vh;
+  background-color: #C58241;
   font-family: "Ubuntu","Roboto", "Montserrat", serif;
 }
+h1 {
+  padding: 5%;
+  font-size: 8vw;
+  text-align: center;
+}
+
+p {
+  font-size: 6vw;
+  padding: 2.5%;
+}
+
+
+main ol li{
+
+  margin: 3vh auto;
+
+}
+
+form {
+  background-color: #FB9E46;
+  padding: 3.5%;
+  margin: 5%;
+  font-size: 4vh;
+}
+
+main input[type="submit"]{
+  font-size: 5vh;
+  padding: 2%;
+}
+
