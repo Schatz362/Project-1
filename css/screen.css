@@ -15,7 +15,8 @@ h1 {
 
 p {
   font-size: 6vw;
-  padding: 2.5%;
+  padding: 3% 11%;
+  text-align: center;
 }
 
 
@@ -35,6 +36,13 @@ form {
 
 main input{
   border: none;
+  outline: none;
+}
+
+main input[type="checkbox"]{
+  width: 3vw;
+  height: 3vw;
+  background: #eee;
 }
 
 main input[type="submit"]{
@@ -49,4 +57,18 @@ main input[type="submit"]:hover{
   background-color: gray;
   color: silver;
 }
+#ball {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+@keyframes bounce {
+  0% { transform: translateY(-90vh); }
+  100% { transform: translateY(0); }
+}
