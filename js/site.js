@@ -5,6 +5,7 @@ const triangle = document.getElementById("triangle")
 const circle2 = document.getElementById("circle2");
 const square2 = document.getElementById("square2");
 const triangle2 = document.getElementById("triangle2")
+const message = document.getElementById("message")
 
 
 function showOverlay() {
@@ -15,4 +16,5 @@ function showOverlay() {
     circle2.style.display = "block";
     square2.style.display = "block";
     triangle2.style.display = "block";
+    message.style.display = "block";
 }
