@@ -2,3 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+body {
+  background-color: #FBC695;
+  font-size: 3vh;
+  font-family: "Ubuntu","Roboto", "Montserrat", serif;
+}

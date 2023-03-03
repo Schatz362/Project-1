@@ -10,9 +10,26 @@
   <script src="js/site.js"></script>
 </head>
 <body>
-<main id="content">
+  <main id = "content">
+    <h1>Free Balls</h1>
+    <p>Get more balls jsut by adding your info below!</p>
+    <form method="get" action="#null">
+      <ol>
+        <li id="input-email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" pattern="^.+@.+$" />
+        </li>
+        <li id="input-age-verification">
+          <input type="checkbox" id="age-verification" name="age-verification" value="18" />
+          <label for="age-verification">I am over 18 years old</label>
+        </li>
+        <li id="input-submit">
+          <input type="submit" name="submit" id="submit" value="MORE BALLS" />
+        </li>
+      </ol>
+    </form>
+    <div id="overlay"></div>
 
-</main>
-
+  </main>
 </body>
 </html>
