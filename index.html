@@ -14,18 +14,18 @@
     <h1>Free Shapes</h1>
     <p>Get more Shapes on screen just by adding your info below!</p>
 
-    <form method="get" action="#null">
+    <form method="get" action="#null" id="shape-form" onsubmit="return false;">
       <ol>
         <li >
           <label for="email">Email:</label>
-          <input type="email" name="email" id="email"/>
+          <input type="email" name="email" id="email" pattern="^.+@.+$" required/>
         </li>
         <li id="input-phone">
           <label for="input-phone">Phone Number:</label>
-          <input type="tel" name="tel" id="tel"/>
+          <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
         </li>
         <li>
-          <input type="checkbox" id="in-US" name="in-US" value="yes" />
+          <input type="checkbox" id="in-US" name="in-US" value="yes" required/>
           <label for="in-US">Do you live in the US</label>
         </li>
         <li id="input-submit">
